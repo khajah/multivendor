@@ -1,0 +1,24 @@
+de:
+  spree:
+    back_to_stores_list: Zurück zur Store-Liste
+    default_currency: Standard Währung
+    send_mail_as: Mails versenden als
+    logo: Logo
+    payment_method: Zahlungsmethode
+    shipping_method: Versandart
+    store: Store
+    stores: Stores
+    new_store: Neuer Store
+    domains: Domains
+    stores_admin: Stores & Domains
+    manage_stores: Store und verknüpfte Domainnamen konfigurieren
+    editing_store: Store editieren
+    default: Default
+    store_name: Name
+    store_code: Code
+    promotion_rule_types:
+      store:
+        name: Store
+        description: Store muss aus der Liste sein
+    store_rule:
+      choose_stores: Stores auswählen

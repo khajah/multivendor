@@ -1,0 +1,4 @@
+<%= f.field_container :store_id, class: ['form-group'] do %>
+  <%= f.label :name, Spree.t(:store) %> <span class="required">*</span>
+  <%= f.collection_select(:store_id, Spree::Store.all, :id, :name, { include_blank: Spree.t('match_choices.none') }, { class: 'select2' }) %>
+<% end %>

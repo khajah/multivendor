@@ -1,0 +1,24 @@
+en:
+  spree:
+    back_to_stores_list: Back To Stores List
+    default_currency: Default Currency
+    send_mail_as: Send Mail As
+    logo: Logo
+    payment_method: Payment Method
+    shipping_method: Shipping Method
+    store: Store
+    stores: Stores
+    new_store: New Store
+    domains: Domains
+    stores_admin: "Stores & Domains"
+    manage_stores: Configure multiple stores and associated domain names
+    editing_store: Editing Store
+    default: Default
+    store_name: Name
+    store_code: Code
+    promotion_rule_types:
+      store:
+        name: Store
+        description: "Store must match one from the list"
+    store_rule:
+      choose_stores: "Choose Stores"

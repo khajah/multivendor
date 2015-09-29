@@ -1,0 +1,8 @@
+<div class="col-md-4">
+  <div data-hook="store" class="form-group">
+    <label><%=t("store")%></label>
+    <span>
+      <%= collection_select(:tracker, :store_id, Spree::Store.all, :id, :name, {}, {class: 'select2'}) %>
+    </span>
+  </div>
+</div>
